@@ -63,7 +63,7 @@ const uint64_t CRYPTONOTE_LOCKED_TX_ALLOWED_DELTA_SECONDS    = DIFFICULTY_TARGET
 const uint64_t CRYPTONOTE_MEMPOOL_TX_LIVETIME                = 60 * 60 * 24;     //seconds, one day
 const uint64_t CRYPTONOTE_MEMPOOL_TX_FROM_ALT_BLOCK_LIVETIME = 60 * 60 * 24 * 7; //seconds, one week
 
-const uint64_t UPGRADE_HEIGHT                                = 354900;
+const uint64_t UPGRADE_HEIGHT                                = 345900;
 const unsigned UPGRADE_VOTING_THRESHOLD                      = 90;               // percent
 const size_t   UPGRADE_VOTING_WINDOW                         = EXPECTED_NUMBER_OF_BLOCKS_PER_DAY;  // blocks
 const size_t   UPGRADE_WINDOW                                = EXPECTED_NUMBER_OF_BLOCKS_PER_DAY;  // blocks
@@ -110,7 +110,7 @@ const size_t   P2P_DEFAULT_WHITELIST_CONNECTIONS_PERCENT     = 70;
 
 const unsigned THREAD_STACK_SIZE                             = 5 * 1024 * 1024;
 
-const char* const SEED_NODES[] = { "oneevil.ru:7666" };
+const char* const SEED_NODES[] = { "91.121.221.92:7666" };
 
 struct CheckpointData {
   uint64_t height;
