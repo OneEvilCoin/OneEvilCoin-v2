@@ -110,7 +110,7 @@ const size_t   P2P_DEFAULT_WHITELIST_CONNECTIONS_PERCENT     = 70;
 
 const unsigned THREAD_STACK_SIZE                             = 5 * 1024 * 1024;
 
-const char* const SEED_NODES[] = { "91.121.221.92:7666" };
+const char* const SEED_NODES[] = { "oec.shscrypto.net" };
 
 struct CheckpointData {
   uint64_t height;
